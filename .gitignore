@@ -1,0 +1,25 @@
+# Entornos y secretos
+.env
+*.env
+**/.env
+**/*.env
+
+# Entornos virtuales y cachés
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Alembic caches
+alembic/__pycache__/
+
+# Copias y scripts locales
+.env.bak
+test_db.py
+__pycache__/
